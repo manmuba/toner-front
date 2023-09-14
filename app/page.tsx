@@ -1,12 +1,9 @@
-import Image from 'next/image'
-import Header from './Layout/Header'
-import Footer from './Layout/Footer'
+import HomePage from './Pages/HomePage'
 
 export default function Home() {
   return (
     <main>
-      <Header />
-      <Footer />
+      <HomePage />
     </main>
   )
 }
