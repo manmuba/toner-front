@@ -16,7 +16,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function HomeSlider() {
   return (
     
-      <div className='w-full'>
+      <div className='w-full h-100px'>
         <Swiper
         spaceBetween={30}
         centeredSlides={true}

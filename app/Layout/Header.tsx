@@ -1,7 +1,7 @@
 import Logo from "../Common/Logo";
 
 import { BiMenu, BiSearch } from 'react-icons/bi';
-import { BsCart, BsSun } from 'react-icons/bs';
+import { BsCart3, BsSun } from 'react-icons/bs';
 import Avatar from "../Common/Avatar";
 
 
@@ -31,7 +31,7 @@ const Header = () => {
                     />
                 </div>
                 <div className="flex p-3 rounded-full hover:bg-neutral-300 transition delay-75 cursor-pointer">
-                    <BsCart
+                    <BsCart3
                         className='text-[16px] text-semibold text-neutral-400'
                     />
                 </div>

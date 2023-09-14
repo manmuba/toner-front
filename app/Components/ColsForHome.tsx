@@ -5,7 +5,7 @@ import Image from "next/image";
 const ColsForHome = () => {
   return (
     <div className="sm:grid sm:grid-cols-2 md:grid-cols-4 px-8 md:px-[12vw] gap-4">
-        <div className="flex flex-row items-center gap-4">
+        <div className="flex flex-row items-center gap-4 my-3">
             <Image
                 className="w-[3rem] h-[3rem]"
                 width="300"
@@ -18,7 +18,7 @@ const ColsForHome = () => {
             <p className="text-[12px] text-neutral-500">Tell about your service.</p>
             </div>
         </div>
-        <div className="flex flex-row items-center gap-4">
+        <div className="flex flex-row items-center gap-4 mt-3 ">
             <Image
                 className="w-[3rem] h-[3rem]"
                 width="300"
@@ -31,7 +31,7 @@ const ColsForHome = () => {
             <p className="text-[12px] text-neutral-500">No question ask.</p>
             </div>
         </div>
-        <div className="flex flex-row items-center gap-4">
+        <div className="flex flex-row items-center gap-4 mt-3">
             <Image
                 className="w-[3rem] h-[3rem]"
                 width="300"
@@ -44,7 +44,7 @@ const ColsForHome = () => {
             <p className="text-[12px] text-neutral-500">Within 5 business days</p>
             </div>
         </div>
-        <div className="flex flex-row items-center gap-4">
+        <div className="flex flex-row items-center gap-4 mt-3">
             <Image
                 className="w-[3rem] h-[3rem]"
                 width="300"
