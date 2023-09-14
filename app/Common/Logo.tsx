@@ -12,14 +12,14 @@ const Logo: React.FC<LogoProps> = ({
     return (<>
         {isDark ?
             <Image
-                className=""
+                className=" cursor-pointer"
                 height="110"
                 width="110"
                 alt="Avatar"
                 src="/images/logo-light.png"
             /> : 
             <Image
-                className=""
+                className=" cursor-pointer"
                 height="110"
                 width="110"
                 alt="Avatar"
