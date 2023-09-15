@@ -3,8 +3,10 @@
 import Image from "next/image";
 import Footer from "../Layout/Footer";
 import Header from "../Layout/Header";
-import { BsEyeSlashFill, BsEyeFill } from "react-icons/bs";
+import { BsEyeSlashFill, BsEyeFill, BsGithub, BsTwitter } from "react-icons/bs";
 import { useState } from "react";
+import { FaFacebook } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 
 const SignIn = () => {
   const [hide, setHide] = useState(true);
@@ -61,6 +63,29 @@ const SignIn = () => {
           <button className="mx-4 my-4 w-[95%] bg-blue-600 hover:bg-blue-500 transition delay-75 text-white p-2 rounded-md text-[14px]">
             Sign In
           </button>
+          <div className="flex items-center justify-center flex-col gap-4 mt-5">
+            <h4 className="text-[14px] font-semibold">Sign In with</h4>
+            <div className="flex gap-3 mb-10">
+              <div className="border rounded-full text-blue-600 p-2 transition delay-75 cursor-pointer hover:text-white hover:bg-blue-600">
+                <FaFacebook />
+              </div>
+              <div className="border rounded-full p-2 transition delay-75 cursor-pointer hover:bg-blue-200">
+                <FcGoogle />
+              </div>
+              <div className="border rounded-full p-2 transition delay-75 cursor-pointer hover:text-white hover:bg-black">
+                <BsGithub />
+              </div>
+              <div className="border rounded-full p-2 transition delay-75 text-blue-500 cursor-pointer hover:text-white hover:bg-blue-400">
+                <BsTwitter />
+              </div>
+            </div>
+            <h4 className="text-[14px] font-medium mb-4">
+              Don't have an account ?{" "}
+              <span className="text-blue-600 underline cursor-pointer font-semibold text-[14px]">
+                SignUp
+              </span>
+            </h4>
+          </div>
         </div>
       </div>
       <Footer />
