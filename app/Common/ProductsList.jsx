@@ -24,7 +24,7 @@ const ProductsList = () => {
                     />
                 </div>
             </div>
-            <button className='bg-blue-600 rounded-md flex p-1 px-2 text-white hover:bg-blue-700'>
+            <button className='bg-blue-600 rounded-md flex p-1 px-2 mx-[5%] text-white hover:bg-blue-700 w-[90%] items-center justify-center'>
                 <BsCartFill 
                     className="text-white text-[20px]"
                 />
