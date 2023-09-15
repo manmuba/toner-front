@@ -6,10 +6,10 @@ import Store from './Pages/Store'
 export default function Home() {
   return (
     <main>
-      <HomePage />
+      {/* <HomePage /> */}
       <SignIn />
-      <Store />
-      <ProductDetail />
+      {/* <Store />
+      <ProductDetail /> */}
     </main>
   )
 }

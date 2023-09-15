@@ -8,7 +8,7 @@ import Avatar from "../Common/Avatar";
 const Header = () => {
     const isDark = false
     return (
-        <div className="flex flex-row items-center justify-between m-3 md:justify-between lg:justify-around md:mx-5 lg:mx-20">
+        <div className="flex flex-row items-center justify-between p-3 md:justify-between lg:justify-around md:px-5 lg:px-20 bg-white">
             <div className="flex md:hidden p-3 bg-[#4b93ff1a] text-[#4b93ff] border-transparent hover:text-[#fff] hover:bg-[#4484e6] transition delay-75 rounded-md cursor-pointer relative left-6">
                 <BiMenu
                     className="text-[22px]"
