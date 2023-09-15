@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ColsForHome = () => {
   return (
-    <div className="sm:grid sm:grid-cols-2 md:grid-cols-4 px-8 md:px-[12vw] gap-4">
+    <div className="sm:grid sm:grid-cols-2 md:grid-cols-4 px-8 md:px-[12vw] gap-4 my-12">
         <div className="flex flex-row items-center gap-4 my-3">
             <Image
                 className="w-[3rem] h-[3rem]"
