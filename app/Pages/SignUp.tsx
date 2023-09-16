@@ -23,17 +23,24 @@ const SignUp = () => {
             className="w-[100px] md:w-[150px] lg:w-[200px]"
           />
           <h1 className="text-white text-xl md:text-3xl">
-            Join Our Toner <br />
-            Store
+            Let's Get Started
+            <br />
+            With Toner
           </h1>
         </div>
         <div className="flex-col p-5 items-center justify-center">
           <h5 className="text-neutral-400 text-[14px] font-semibold">
-            Sign in to continue to Toner.
+            Get your free Toner account now
           </h5>
-          <h4 className="mx-4 mb-3 text-[14px] font-semibold mt-6">Username</h4>
+          <h4 className="mx-4 mb-3 text-[14px] font-semibold mt-6">Email</h4>
           <input
             type="email"
+            className="mx-4 p-2 px-5 w-[95%] outline-none focus:border-blue-500 border rounded-md"
+            placeholder="Enter email address"
+          />
+          <h4 className="mx-4 mb-3 text-[14px] font-semibold mt-6">Username</h4>
+          <input
+            type="text"
             className="mx-4 p-2 px-5 w-[95%] outline-none focus:border-blue-500 border rounded-md"
             placeholder="Enter username"
           />
@@ -57,14 +64,18 @@ const SignUp = () => {
             {hide ? <BsEyeFill /> : <BsEyeSlashFill />}
           </span>
           <div className="flex items-center justify-start px-4 gap-2">
-            <input type="checkbox" name="" id="" />
-            <span className="text-[13px] font-medium">Remember me</span>
+            <em className="text-[12px] text-neutral-500">
+              By registering you agree to the Toner
+            </em>
+            <span className="text-[13px] font-medium underline text-blue-600 cursor-pointer">
+              Terms of Use
+            </span>
           </div>
           <button className="mx-4 my-4 w-[95%] bg-blue-600 hover:bg-blue-500 transition delay-75 text-white p-2 rounded-md text-[14px]">
-            Sign In
+            Sign Up
           </button>
           <div className="flex items-center justify-center flex-col gap-4 mt-5">
-            <h4 className="text-[14px] font-semibold">Sign In with</h4>
+            <h4 className="text-[14px] font-semibold">Create account with</h4>
             <div className="flex gap-3 mb-10">
               <div className="border rounded-full text-blue-600 p-2 transition delay-75 cursor-pointer hover:text-white hover:bg-blue-600">
                 <FaFacebook />
@@ -80,9 +91,9 @@ const SignUp = () => {
               </div>
             </div>
             <h4 className="text-[14px] font-medium mb-4">
-              Don't have an account ?{" "}
+              Already have an account ?{" "}
               <span className="text-blue-600 underline cursor-pointer font-semibold text-[14px]">
-                SignUp
+                SignIn
               </span>
             </h4>
           </div>
