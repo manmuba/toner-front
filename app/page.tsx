@@ -1,3 +1,4 @@
+import CreatePassword from "./Pages/CreatePassword";
 import ForgotPassword from "./Pages/ForgotPassword";
 import HomePage from "./Pages/HomePage";
 import ProductDetail from "./Pages/ProductDetail";
@@ -11,7 +12,8 @@ export default function Home() {
       {/* <HomePage /> */}
       {/* <SignIn /> */}
       {/* <SignUp /> */}
-      <ForgotPassword />
+      {/* <ForgotPassword /> */}
+      <CreatePassword />
       {/* <Store />
       <ProductDetail /> */}
     </main>
