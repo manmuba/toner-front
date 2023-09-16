@@ -4,6 +4,7 @@ import Image from "next/image";
 import Footer from "../Layout/Footer";
 import Header from "../Layout/Header";
 import "bootstrap/dist/css/bootstrap.css";
+import { FiCheckCircle } from "react-icons/fi";
 
 const CreateSuccess = () => {
   return (
@@ -18,25 +19,18 @@ const CreateSuccess = () => {
             src="/images/auth/img-1.png"
             className="w-[100px] md:w-[150px] lg:w-[200px]"
           />
-          <h1 className="text-white text-xl md:text-3xl">Forgot Password?</h1>
+          <h1 className="text-white text-xl md:text-3xl">Well done!</h1>
         </div>
         <div className="flex-col p-5 items-center justify-center">
-          <h5 className="text-neutral-400 text-[14px] font-semibold">
-            Reset password with Toner.
-          </h5>
-          <div className="p-2 items-center flex justify-center w-[95%] mx-4 alert alert-borderless alert-warning text-center mt-4">
-            <span className="text-yellow-600 text-[14px]">
-              Enter your email and instructions will be sent to you!
-            </span>
+          <div className="p-2 items-center flex justify-center w-[95%] mx-4 text-center mt-4 flex-col">
+            <div className="flex items-center p-3 rounded-sm alert alert-borderless alert-success text-center mt-4">
+              <FiCheckCircle className="text-green-600 text-[20px]" />
+            </div>
+            <h6 className="text-[14px] text-neutral-500">
+              Password has been successfully changed
+            </h6>
           </div>
-          <h4 className="mx-4 mb-3 text-[14px] font-semibold mt-6">Email</h4>
-          <input
-            type="email"
-            className="mx-4 p-2 px-5 w-[95%] outline-none focus:border-blue-500 border rounded-md"
-            placeholder="Enter your email or username "
-          />
-
-          <button className="mx-4 my-4 w-[95%] bg-green-600 hover:bg-blue-500 transition delay-75 text-white p-2 rounded-md text-[14px]">
+          <button className="mx-4 w-[95%] bg-green-600 hover:bg-green-500 transition delay-75 text-white p-2 rounded-md text-[14px]">
             Back to DashBoard
           </button>
         </div>
