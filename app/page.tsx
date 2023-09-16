@@ -1,3 +1,4 @@
+import Page404 from "./Pages/404";
 import CreatePassword from "./Pages/CreatePassword";
 import CreateSuccess from "./Pages/CreateSuccess";
 import ForgotPassword from "./Pages/ForgotPassword";
@@ -17,7 +18,8 @@ export default function Home() {
       {/* <ForgotPassword /> */}
       {/* <CreatePassword /> */}
       {/* <CreateSuccess /> */}
-      <LogOut />
+      {/* <LogOut /> */}
+      <Page404 />
       {/* <Store />
       <ProductDetail /> */}
     </main>
