@@ -2,6 +2,7 @@ import CreatePassword from "./Pages/CreatePassword";
 import CreateSuccess from "./Pages/CreateSuccess";
 import ForgotPassword from "./Pages/ForgotPassword";
 import HomePage from "./Pages/HomePage";
+import LogOut from "./Pages/LogOut";
 import ProductDetail from "./Pages/ProductDetail";
 import SignIn from "./Pages/SignIn";
 import SignUp from "./Pages/SignUp";
@@ -15,7 +16,8 @@ export default function Home() {
       {/* <SignUp /> */}
       {/* <ForgotPassword /> */}
       {/* <CreatePassword /> */}
-      <CreateSuccess />
+      {/* <CreateSuccess /> */}
+      <LogOut />
       {/* <Store />
       <ProductDetail /> */}
     </main>
