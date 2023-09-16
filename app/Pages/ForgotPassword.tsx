@@ -3,13 +3,9 @@
 import Image from "next/image";
 import Footer from "../Layout/Footer";
 import Header from "../Layout/Header";
-import { BsEyeSlashFill, BsEyeFill, BsGithub, BsTwitter } from "react-icons/bs";
-import { useState } from "react";
-import { FaFacebook } from "react-icons/fa";
-import { FcGoogle } from "react-icons/fc";
+import "bootstrap/dist/css/bootstrap.css";
 
 const ForgotPassword = () => {
-  const [hide, setHide] = useState(true);
   return (
     <div className=" bg-neutral-200">
       <Header />
@@ -22,12 +18,17 @@ const ForgotPassword = () => {
             src="/images/auth/img-1.png"
             className="w-[100px] md:w-[150px] lg:w-[200px]"
           />
-          <h1 className="text-white text-xl md:text-3xl">Forgot Password</h1>
+          <h1 className="text-white text-xl md:text-3xl">Forgot Password?</h1>
         </div>
         <div className="flex-col p-5 items-center justify-center">
           <h5 className="text-neutral-400 text-[14px] font-semibold">
             Reset password with Toner.
           </h5>
+          <div className="p-2 items-center flex justify-center w-[95%] mx-4 alert alert-borderless alert-warning text-center mt-4">
+            <span className="text-yellow-600 text-[14px]">
+              Enter your email and instructions will be sent to you!
+            </span>
+          </div>
           <h4 className="mx-4 mb-3 text-[14px] font-semibold mt-6">Email</h4>
           <input
             type="email"
