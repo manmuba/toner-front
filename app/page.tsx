@@ -1,3 +1,4 @@
+import ForgotPassword from "./Pages/ForgotPassword";
 import HomePage from "./Pages/HomePage";
 import ProductDetail from "./Pages/ProductDetail";
 import SignIn from "./Pages/SignIn";
@@ -9,7 +10,8 @@ export default function Home() {
     <main>
       {/* <HomePage /> */}
       {/* <SignIn /> */}
-      <SignUp />
+      {/* <SignUp /> */}
+      <ForgotPassword />
       {/* <Store />
       <ProductDetail /> */}
     </main>
