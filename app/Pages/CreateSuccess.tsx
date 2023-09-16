@@ -21,8 +21,8 @@ const CreateSuccess = () => {
           />
           <h1 className="text-white text-xl md:text-3xl">Well done!</h1>
         </div>
-        <div className="flex-col p-5 items-center justify-center">
-          <div className="p-2 items-center flex justify-center w-[95%] mx-4 text-center mt-4 flex-col">
+        <div className="flex-col px-5 pb-5 items-center justify-center">
+          <div className="p-2 items-center flex justify-center w-[95%] mx-4 text-center flex-col">
             <div className="flex items-center p-3 rounded-sm alert alert-borderless alert-success text-center mt-4">
               <FiCheckCircle className="text-green-600 text-[20px]" />
             </div>
