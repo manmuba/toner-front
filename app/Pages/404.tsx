@@ -25,8 +25,7 @@ const Page404 = () => {
             <h2 className="text-[18px] font-bold pb-3">OOPS, PAGE NOT FOUND</h2>
             <h6 className="text-[14px] text-neutral-500 font-medium">
               It will be a simple Occidental in fact, it will Occidetal to an
-              Demo <br />
-              person
+              Demo person
             </h6>
             <button className="mt-4 flex flex-row items-center justify-center gap-2 mx-4 w-[55%] bg-blue-600 hover:bg-blue-500 transition delay-75 text-white p-2 rounded-md text-[14px]">
               <GoHomeFill size="20" />
