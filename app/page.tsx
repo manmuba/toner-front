@@ -8,6 +8,7 @@ import ProductDetail from "./Pages/ProductDetail";
 import SignIn from "./Pages/SignIn";
 import SignUp from "./Pages/SignUp";
 import Store from "./Pages/Store";
+import TrackOrder from "./Pages/TrackOrder";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
       {/* <CreatePassword /> */}
       {/* <CreateSuccess /> */}
       {/* <LogOut /> */}
-      <Page404 />
+      {/* <Page404 /> */}
+      <TrackOrder />
       {/* <Store />
       <ProductDetail /> */}
     </main>
